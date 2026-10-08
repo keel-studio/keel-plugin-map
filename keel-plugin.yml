@@ -6,7 +6,7 @@ title: "Map"
 version: 0.0.0
 publisher: keel
 summary: "A picture of the project: the system, its modules and the database (ER), drawn from folders, migrations and the API contract."
-repo: https://github.com/MiladNalbandi/keel-plugin-map
+repo: https://github.com/keel-studio/keel-plugin-map
 license: MIT
 
 requires:
