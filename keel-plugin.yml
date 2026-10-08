@@ -1,0 +1,19 @@
+# The plugin's manifest. Draft: the code still lives in keel-v2, so nothing is released yet.
+# Format: https://github.com/MiladNalbandi/keel-v2/tree/main/docs/plugins/02-plugin-package.md
+schema: 1
+name: map
+title: "Map"
+version: 0.0.0
+publisher: keel
+summary: "A picture of the project: the system, its modules and the database (ER), drawn from folders, migrations and the API contract."
+repo: https://github.com/MiladNalbandi/keel-plugin-map
+license: MIT
+
+requires:
+  sdk: 1
+optional:
+  db: ">=0.1.0"
+
+parts:
+  engine: { path: engine, package: keel_plugin_map }
+  web: { entry: web/index.js }
